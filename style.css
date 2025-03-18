@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* background-color: rgb(250, 245, 240); */
+    background-color: rgb(240, 240, 235);
+}
+
+p {
+    margin: 15px;
+    font-size: 18px;
+}
+
+#input {
+    width: 60%;
+    height: 50px;
+    font-size: 14px;
+}
+
+#results span {
+    /* text shadow on rating */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#reset {
+    background-color: rgba(220, 220, 220, 0.6);
+    transition: background-color 0.2s ease;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+#reset:hover {
+    background-color: rgba(255, 220, 255, 0.9);;
+}
+
+#cat_typing {
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
