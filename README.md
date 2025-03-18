@@ -1,3 +1,5 @@
+[YouTube video](https://www.youtube.com/watch?v=4aupV9dcnoU)
+
 Minimalist speed typing game built with HTML, CSS, and JavaScript.  
 - Auto-focus & instant start on first keystroke  
 - Real-time timer & words per minute (WPM) tracking  

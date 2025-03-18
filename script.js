@@ -121,11 +121,13 @@ inputElement.addEventListener("keydown", function(event) {
         reset();
         return;
     }
-    if (endTime) { // if game ended, prevent input
+    // if game ended, prevent input
+    if (endTime) {
         event.preventDefault();
         return;
     }
-    if (!startTime) {
+    // dont let windows control/mac command key start game
+    if (!startTime && !event.cntrlKey && !event.metaKey) {
         start();
     }
 });
